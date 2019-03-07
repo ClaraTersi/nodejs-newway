@@ -1,6 +1,7 @@
 # Aulão de NodeJS
 
 ## Tópicos
+- ecmascript? javascript?
 - map, reduce, filter, some...
 - promises, async await
 - arrow functions
