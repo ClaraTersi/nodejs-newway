@@ -16,4 +16,4 @@ Descrição e [link aqui]
 
 ## Links
 
-[Colocar aqui alguns links que acharmos interessantes pro pessoal, referentes ao aulão]
+(What's the difference between JavaScript and ECMAScript?)[https://medium.freecodecamp.org/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5]
