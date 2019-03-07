@@ -1,0 +1,11 @@
+{
+  "name": "exemplos",
+  "version": "1.0.0",
+  "description": "Exemplos utilizados no aulão de NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clara Tersi, Julio Camargo",
+  "license": "ISC"
+}
