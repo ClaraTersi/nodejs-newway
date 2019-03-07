@@ -5,6 +5,7 @@
 - map, reduce, filter, some...
 - promises, async await
 - arrow functions
+- event loop
 
 ## Slides
 
