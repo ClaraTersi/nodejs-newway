@@ -1,3 +1,3 @@
-# Aulão de NodeJS na New Way
+# Aulão de NodeJS
 
 ## Tópicos
