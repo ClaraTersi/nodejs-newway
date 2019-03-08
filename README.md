@@ -1,19 +1,24 @@
 # Aulão de NodeJS
 
 ## Tópicos
-- ecmascript? javascript?
-- map, reduce, filter, some...
-- promises, async await
-- arrow functions
-- event loop
+- Funcionamento do NodeJS
+  - Engine V8
+  - Eventos
+- ECMAScript? JavaScript?
+  - Diferenças marcantes entre versões
+  - Frequência de atualização
+- Map, Reduce, Filter
+- Callbacks, Promises, async await
+- Arrow functions
+  - Contexto do "this"
+  - Formas de usar
+- Objects
+  - Prototype
+  - Assign
 
 ## Slides
 
-[Link aqui]
-
-## Projeto
-
-Descrição e [link aqui]
+[Slides da aula]()
 
 ## Links
 
