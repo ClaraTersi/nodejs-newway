@@ -4,6 +4,7 @@
 - Funcionamento do NodeJS
   - Engine V8
   - Eventos
+- NPM & Yarn
 - ECMAScript? JavaScript?
   - Diferenças marcantes entre versões
   - Frequência de atualização
