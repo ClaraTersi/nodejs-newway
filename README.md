@@ -4,22 +4,30 @@
 - Funcionamento do NodeJS
   - Engine V8
   - Eventos
-- NPM & Yarn
+- Gerenciadores de pacotes
+  - NPM
+  - Yarn
 - ECMAScript? JavaScript?
   - Diferenças marcantes entre versões
   - Frequência de atualização
-- Map, Reduce, Filter
-- Callbacks, Promises, async await
+- Métodos de array
+  - Map
+  - Filter
+  - Reduce
+- Programação assíncrona
+  - Callbacks
+  - Promises
+  - Async/Await
 - Arrow functions
-  - Contexto do "this"
   - Formas de usar
+  - Contexto do "this"
 - Objects
   - Prototype
   - Assign
 
 ## Slides
 
-[Slides da aula]()
+[Slides da aula](https://docs.google.com/presentation/d/1BYHHjHdGTprGg4UnYviJXScFUp0cFORU5sLh9qUNzc8/edit?usp=sharing)
 
 ## Links
 
