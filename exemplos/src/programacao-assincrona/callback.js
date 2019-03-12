@@ -1,10 +1,10 @@
-function minhaFuncao(callback) {
-  console.log('Executando minha função...');
-  setTimeout(callback, 5000);
+function saudar(nome, callback) {
+  console.log(`Bem vindo, ${nome}!`);
+  setTimeout(callback, 3000);
 }
 
-function callback() {
-  console.log('Callback executada!');
+function callback(nome) {
+  console.log(`O ${nome} foi saudado`);
 }
 
-minhaFuncao(callback);
+saudar('julio', callback);
