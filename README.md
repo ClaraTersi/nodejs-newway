@@ -39,3 +39,4 @@
 - [Yarn vs npm - which Node package manager to use in 2018?](https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/)
 - [What's the difference between JavaScript and ECMAScript?](https://medium.freecodecamp.org/whats-the-difference-between-javascript-and-ecmascript-cba48c73a2b5)
 - [ECMAScript 6 compatibility table](https://kangax.github.io/compat-table/es6/)
+- [JavaScript: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
