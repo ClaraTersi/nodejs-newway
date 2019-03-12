@@ -1,30 +1,5 @@
 # Aulão de NodeJS
 
-## Tópicos
-- Funcionamento do NodeJS
-  - Engine V8
-  - Eventos
-- Gerenciadores de pacotes
-  - NPM
-  - Yarn
-- ECMAScript? JavaScript?
-  - Diferenças marcantes entre versões
-  - Frequência de atualização
-- Métodos de array
-  - Map
-  - Filter
-  - Reduce
-- Programação assíncrona
-  - Callbacks
-  - Promises
-  - Async/Await
-- Arrow functions
-  - Formas de usar
-  - Contexto do "this"
-- Objects
-  - Prototype
-  - Assign
-
 ## Slides
 
 [Slides da aula](https://docs.google.com/presentation/d/1BYHHjHdGTprGg4UnYviJXScFUp0cFORU5sLh9qUNzc8/edit?usp=sharing)
