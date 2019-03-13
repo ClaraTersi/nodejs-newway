@@ -7,14 +7,12 @@ const soma = array.reduce(function (valorAnterior, elem, index) {
 
 const agrupados = array.reduce(function (valorAnterior, valorAtual, index) {
   if(valorAtual % 2 === 0) {
-    valorAnterior['par'] = valorAnterior['par'] || [];
-    valorAnterior['par'].push(valorAtual);
+    valorAnterior.par.push(valorAtual);
   } else {
-    valorAnterior['impar'] = valorAnterior['impar'] || [];
-    valorAnterior['impar'].push(valorAtual);
+    valorAnterior.impar.push(valorAtual);
   }
   return valorAnterior;
-}, []);
+}, { par: [], impar: [] });
 
 console.log(`Soma: ${soma}`);
 console.log('Agrupados:', agrupados);
@@ -23,6 +21,6 @@ const cidadesPorEstado = locations.reduce((valorInicial, valorAtual) => {
   valorInicial[valorAtual.state] = valorInicial[valorAtual.state] || [];
   valorInicial[valorAtual.state].push(valorAtual.city);
   return valorInicial;
-}, []);
+}, {});
 
-console.log('Agrupamento por estado:', cidadesPorEstado);
+//console.log('Agrupamento por estado:', cidadesPorEstado);
