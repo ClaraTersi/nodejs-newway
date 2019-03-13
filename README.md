@@ -17,3 +17,4 @@
 - [JavaScript: What the heck is a Callback?](https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced)
 - [Understanding promises in JavaScript](https://hackernoon.com/understanding-promises-in-javascript-13d99df067c1)
 - [Entendendo o async e o await em JavaScript](https://tableless.com.br/entendendo-o-async-e-o-await-em-javascript/)
+- [Arrow functions vs Functions](https://medium.com/frontend-quest/arrow-functions-vs-functions-9048ec12b5c6)
