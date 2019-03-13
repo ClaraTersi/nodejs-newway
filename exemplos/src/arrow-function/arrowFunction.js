@@ -1,17 +1,21 @@
-const nome = 'Julio';
+class Pessoa {
+    constructor(nome, sobrenome) {
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+    }
 
-const dobrar = numero => numero * 2; 
+    exibirThisComArrowFunction() {
+       const arrowFunction = () => console.log('Com Arrow Function:', this);
+       arrowFunction();
+    }
 
-const informarDobroComArrowFunction = (nome, numero) => {
-    const dobro = dobrar(numero);
-    return `${this.nome}, o dobro desse número é ${dobro}`;
-};
+    exibirThisSemArrowFunction() {
+        const anonymousFunction = function() { console.log('Sem Arrow Function:', this) };
+        anonymousFunction();
+    }
+}
 
-function informarDobroSemArrowFunction(nome, numero) {
-    const dobro = dobrar(numero);
-    return `${this.nome}, o dobro desse número é ${dobro}`;
-};
+const pessoa = new Pessoa('Julio', 'Camargo');
 
-console.log(informarDobroComArrowFunction('Clara', 2));
-console.log(informarDobroSemArrowFunction('Clara', 3));
-
+pessoa.exibirThisComArrowFunction();
+pessoa.exibirThisSemArrowFunction();
