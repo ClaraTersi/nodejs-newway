@@ -1,7 +1,7 @@
-const fetch = require('node-fetch');
+const https = require('https');
 
 function pegarNome() {
-  const res = fetch('https://api.github.com/users/claratersi');
+  const res = https.get('https://api.github.com/users/claratersi');
   const data = res.json();
   return data.name;
 }
