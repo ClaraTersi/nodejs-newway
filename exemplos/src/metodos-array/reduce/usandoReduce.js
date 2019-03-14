@@ -1,11 +1,11 @@
 const locations = require('./locations');
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const soma = array.reduce(function (valorAnterior, elem, index) {
+const soma = array.reduce((valorAnterior, elem, index) => {
   return valorAnterior + elem;
 }, 0);
 
-const agrupados = array.reduce(function (valorAnterior, valorAtual, index) {
+const agrupados = array.reduce((valorAnterior, valorAtual, index) => {
   if(valorAtual % 2 === 0) {
     valorAnterior.par.push(valorAtual);
   } else {

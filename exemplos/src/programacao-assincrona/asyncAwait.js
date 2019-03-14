@@ -1,13 +1,14 @@
-const https = require('https');
+const fetch = require('node-fetch');
 
-async function pegarNome() {
-  const res = await https.get('https://api.github.com/users/claratersi');
+async function pegarNome(nomeDeUsuario) {
+  const res = await fetch(`https://api.github.com/users/${nomeDeUsuario}`);
   const data = await res.json();
   return data.name;
 }
 
 async function mostrarNome() {
-  const nome = await pegarNome();
+  const nomeDeUsuario = 'claratersi';
+  const nome = await pegarNome(nomeDeUsuario);
   console.log(nome);
 }
 

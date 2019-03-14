@@ -1,13 +1,14 @@
-const https = require('https');
+const fetch = require('node-fetch');
 
-function pegarNome() {
-  const res = https.get('https://api.github.com/users/claratersi');
-  const data = res.json();
+function pegarNome(nomeDeUsuario) {
+  const res = fetch(`https://api.github.com/users/${nomeDeUsuario}`);
+  const data = res.json(); // Erro, pois a resposta da req acima ainda não roi recebida
   return data.name;
 }
 
 function mostrarNome() {
-  const nome = pegarNome();
+  const nomeDeUsuario = 'claratersi';
+  const nome = pegarNome(nomeDeUsuario);
   console.log(nome);
 }
 
